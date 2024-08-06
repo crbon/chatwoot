@@ -52,7 +52,7 @@ describe('#actions', () => {
       const data = `Inbox name,Conversations count,Avg first response time (Minutes),Avg resolution time (Minutes)
       Fayaz,2,127,0
       EMa,0,0,0
-      Twillio WA,0,0,0`;
+      Twilio WA,0,0,0`;
       axios.get.mockResolvedValue({ data });
       const param = {
         from: 1631039400,
